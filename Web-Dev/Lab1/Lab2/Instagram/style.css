@@ -1,0 +1,123 @@
+body {
+  background-color: #000;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.phone-mockup img {
+  height: 500px;
+  margin-right: 20px;
+}
+
+.login-box {
+  padding: 20px;
+  border: 1px solid #333;
+  text-align: center;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 9px 0px 7px 8px;
+  margin: 5px 0;
+  background: #262626;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.login-box button {
+  width: 308px;
+  padding: 10px;
+  background-color: #3897f0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 14px 0 0 0;
+}
+
+.login-box a {
+  color: #3897f0;
+  text-decoration: none;
+}
+
+.divider {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #333;
+}
+
+.divider span {
+  margin: 0 10px;
+}
+
+.download-links img {
+  width: 120px;
+  margin: 5px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #000;
+  padding: 10px 0;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  font-size: 12px;
+  color: gray;
+}
+
+.foot_el {
+  text-decoration: none;
+  color: gray;
+}
+.foot_el:hover {
+  text-decoration: underline;
+}
+.footer_copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  color: gray;
+}
+select {
+  border: none;
+  background: none;
+  font-size: 12px;
+  color: gray;
+  cursor: pointer;
+}
+#copyr_text {
+  display: block;
+  margin-top: auto;
+  font-size: 12px;
+  color: grey;
+}
